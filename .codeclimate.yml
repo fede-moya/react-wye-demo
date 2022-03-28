@@ -1,0 +1,10 @@
+prepare:
+  fetch:
+    - url: foobar
+      path: base_rubocop.yml
+
+    - url: https://raw.githubusercontent.com/codeclimate/styleguide/master/ruby/rails_rubocop.yml
+      path: rails_rubocop.yml
+
+    - url: https://raw.githubusercontent.com/codeclimate/styleguide/master/javascript/eslintrc.base.js
+      path: .eslintrc.base.js
